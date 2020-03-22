@@ -3,6 +3,7 @@ import { Navbar, NavbarBrand } from "reactstrap";
 //import logo from './logo.svg';
 import "./App.css";
 //import { render } from "react-dom";
+import Directory from "./components/DirectoryComponent";
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
             <NavbarBrand href="/">NuCamp</NavbarBrand>
           </div>
         </Navbar>
+        <Directory />
       </div>
     );
   }
