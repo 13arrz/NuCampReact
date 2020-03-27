@@ -59,3 +59,4 @@ class CampsiteInfo extends Component {
 }
 
 export default CampsiteInfo;
+//test
