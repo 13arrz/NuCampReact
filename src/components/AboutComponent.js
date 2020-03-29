@@ -14,13 +14,14 @@ function RenderPartner({ partner }) {
     return (
       <React.Fragment>
         <Media object src={partner.image} alt={partner.name} width="150" />
-        <Media object className="ml-5 mb-4">
+        <Media body className="ml-5 mb-4">
           <Media heading>{partner.name}</Media>
           {partner.description}
         </Media>
       </React.Fragment>
     );
   }
+  return <div></div>;
 }
 
 function About(props) {
