@@ -7,7 +7,7 @@ export const initialState = {
   campsites: CAMPSITES,
   comments: COMMENTS,
   partners: PARTNERS,
-  promotions: PROMOTIONS
+  promotions: PROMOTIONS,
 };
 
 export const Reducer = (state = initialState, action) => {
